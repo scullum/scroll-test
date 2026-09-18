@@ -37,3 +37,9 @@ function render() {
   context.clearRect(0, 0, canvas.width, canvas.height);
   context.drawImage(images[airpods.frame], 0, 0);
 }
+
+// Big button interaction
+const bigButton = document.getElementById("big-button");
+bigButton.addEventListener("click", () => {
+  alert("Big button clicked! 🎉");
+});
